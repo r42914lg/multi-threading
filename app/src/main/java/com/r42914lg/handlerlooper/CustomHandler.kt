@@ -33,8 +33,6 @@ class CustomHandler : Handler(Looper.getMainLooper()) {
         }
     }
 
-
-
     companion object {
         private const val MESSAGE_WHAT_1 = 1
         private const val ARG_MESSAGE = "my_message"
